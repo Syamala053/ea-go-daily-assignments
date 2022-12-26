@@ -1,2 +1,37 @@
 # ea-go-daily-assignments
-Learn go by doing daily assignments
+Daily go assignments
+
+- Day-1
+  - *hello_world* - Implementes basic hello world program
+  - *calculator* - Basic calculator with add, sub, mul, div functionalities. And explored about math library also
+  - Learnings
+    - Learn about a basic syntax in go.(importing the default libraries, printing the values, running the go program)
+    - Creating basic functions.
+    - Explored math package.
+    - Basic testing using testing library
+- Day-2
+  - *bank_account* - A simple implementation of quick cash. If user have multiple sources(Savings account, credit card account, wallets) to withdraw money, it will check the all sources and withdraw money
+  - Learnings
+    - Learn about interfaces, structs, pointers
+- Day-3
+  - *account* - A simple implementation of account which will Deposit, Withdraw, get the balance.
+  - *quote* - Get the random quote
+  - Learnings
+    - Sending custom erros.
+    - installing libraries with go.
+- Day-4
+  - *hello_api* - Basic hello api
+  - *books_api* - Basic books CURD oprations
+  - Learning
+    - Handling api CURD operations with gin
+- Day-5
+  - *agent* - It will get jobs from the `jobs.json` and excecute the jobs and put the executed jobs in `status.json`.
+  - Learings
+    - Basic understanding of go routines
+    - About Json Marshal, Unmarshal
+    - Reading data from json files
+- Day-6 - explore the concurency in go.
+- Day-7
+  - *service_andworkers* - Service to run different jobs using workers.
+  - Learings
+    - About channels, WaitGroups
